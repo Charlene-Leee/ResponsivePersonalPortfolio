@@ -1,0 +1,27 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Project Overview
+
+This is a responsive portfolio website project, now functionally complete according to the tutorial. It showcases skills, qualifications, services, a portfolio, testimonials, and contact information.
+
+## Key Features:
+*   Responsive design adapting to various screen sizes.
+*   Interactive sections using Swiper.js for portfolio and testimonials carousels.
+*   Dark/Light theme toggle with user preference saved via localStorage.
+*   Scroll-based interactions (active navigation links, header changes, scroll-to-top button).
+*   Services section with modal pop-ups for more details.
+
+## Key Files and Directories:
+
+*   **Main HTML:** [index.html](mdc:index.html) - The single-page entry point of the website, containing all sections.
+*   **Main Stylesheet:** [assets/css/styles.css](mdc:assets/css/styles.css) - Contains all custom styles, including theme variables and responsive media queries.
+*   **Main JavaScript:** [assets/js/main.js](mdc:assets/js/main.js) - Contains all custom JavaScript logic for interactivity.
+*   **Assets Directory:** [assets](mdc:assets) - Contains all static assets:
+    *   [assets/css](mdc:assets/css) - CSS files, including `styles.css` and `swiper-bundle.min.css`.
+    *   [assets/js](mdc:assets/js) - JavaScript files, including `main.js` and `swiper-bundle.min.js`.
+    *   [assets/img](mdc:assets/img) - Image files for portfolio, testimonials, profile, etc.
+    *   [assets/pdf](mdc:assets/pdf) - PDF files (e.g., CV).
+*   **README:** [README.md](mdc:README.md) - Contains general information about the project.

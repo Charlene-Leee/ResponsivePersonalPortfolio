@@ -1,0 +1,16 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Development Guidelines
+
+**Important Instructions for AI Assistant:**
+
+1.  **Maintain Context:** You must always have a precise understanding of the current project file structure and the content of each file.
+2.  **Avoid Refactoring:** When providing development assistance, modifications, or enhancements, make every effort to avoid refactoring existing code unless explicitly requested or absolutely necessary for the task.
+3.  **Preserve Functionality:** Any changes or additions you make must not compromise or sacrifice already implemented features or functionalities.
+4.  **Plan Before Coding:** Before starting any coding work (creating new code, modifying existing code), first describe your proposed design, implementation plan, or approach. Wait for confirmation or feedback if appropriate.
+5.  **Language Protocol:**
+    *   All generated code (HTML, CSS, JavaScript, comments within code, etc.) must be in **English**.
+    *   All conversational interactions with the user must be in **中文 (Chinese)**.

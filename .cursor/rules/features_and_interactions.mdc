@@ -1,0 +1,36 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Features and Interactions
+
+This document outlines the key interactive features and third-party libraries used in the project.
+
+## Core Interactivity (handled by [assets/js/main.js](mdc:assets/js/main.js)):
+
+*   **Navigation Menu:** Responsive mobile menu with toggle and link-click-close functionality.
+*   **Skills Section:** Accordion-style reveal for skill details.
+*   **Qualification Section:** Tabbed interface to switch between Education and Work history.
+*   **Services Section:** Modal pop-ups to display detailed service information.
+*   **Scrollspy:** Highlights the active navigation link based on the current scroll position.
+*   **Dynamic Header:** Header background changes on scroll.
+*   **Scroll-to-Top Button:** Appears on scroll, allowing quick navigation to the top of the page.
+*   **Dark/Light Theme:** User-selectable theme preference (dark or light mode) stored in `localStorage`.
+
+## Third-Party Libraries & Assets:
+
+*   **Swiper.js:** ([assets/js/swiper-bundle.min.js](mdc:assets/js/swiper-bundle.min.js) & [assets/css/swiper-bundle.min.css](mdc:assets/css/swiper-bundle.min.css))
+    *   Used for the interactive carousels in the **Portfolio** section.
+    *   Used for the interactive carousels in the **Testimonial** section.
+*   **Unicons:** (Linked via CDN in [index.html](mdc:index.html))
+    *   Provides a wide range of icons used throughout the website (navigation, section headers, buttons, etc.).
+*   **Google Fonts:** (Imported in [assets/css/styles.css](mdc:assets/css/styles.css))
+    *   Uses the 'Poppins' font family.
+
+## Key User Interactions:
+
+*   Clicking navigation links smoothly scrolls to the respective sections.
+*   Hover effects on buttons and links.
+*   Interactive Swiper carousels (drag, click arrows/pagination).
+*   Theme can be changed by clicking the moon/sun icon in the header.

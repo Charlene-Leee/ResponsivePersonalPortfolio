@@ -1,0 +1,33 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# JavaScript Guide
+
+The main custom JavaScript logic for the website is in [assets/js/main.js](mdc:assets/js/main.js). This script manages all major interactive features of the site:
+
+*   **Menu Interaction:**
+    *   Shows/hides the mobile navigation menu (`#nav-menu`) using `#nav-toggle` and `#nav-close` buttons.
+    *   Removes the mobile menu when a `.nav__link` is clicked.
+*   **Accordion for Skills:**
+    *   Toggles the visibility of skill details (`skills__content`) when a `.skills__header` is clicked, managing `skills__open` and `skills__close` classes.
+*   **Tabs for Qualification:**
+    *   Switches between Education and Work tabs by managing `qualification__active` class on `[data-target]` buttons and `[data-content]` divs.
+*   **Services Modal:**
+    *   Opens and closes modal windows (`.services__modal`) for service details, triggered by `.services__button` and closed by `.services__modal-close`.
+*   **Portfolio Swiper:**
+    *   Initializes Swiper for the `.portfolio__container` with navigation buttons and pagination.
+*   **Testimonial Swiper:**
+    *   Initializes Swiper for the `.testimonial__container` with pagination, loop, and responsive settings.
+*   **Scroll-based Interactions:**
+    *   **Active Navigation Link:** Adds `active-link` class to the corresponding navigation link when a section scrolls into view.
+    *   **Change Header Background:** Adds `scroll-header` class to the header (`#header`) when scrolling down.
+    *   **Show Scroll-Up Button:** Adds `show-scroll` class to the scroll-up button (`#scroll-up`) when scrolling past a certain point.
+*   **Dark/Light Theme Toggle:**
+    *   Toggles `dark-theme` class on `document.body` and icon class (`uil-sun`/`uil-moon`) on `#theme-button`.
+    *   Saves and retrieves the user's theme preference using `localStorage` (`selected-theme`, `selected-icon`).
+
+The project also links to [assets/js/swiper-bundle.min.js](mdc:assets/js/swiper-bundle.min.js) which provides the Swiper library functionality used by `main.js`.
+
+When developing, ensure that [index.html](mdc:index.html) correctly links to all necessary JavaScript files.

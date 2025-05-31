@@ -1,0 +1,15 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Assets Guide
+
+The [assets](mdc:assets) directory stores all static resources for the website.
+
+It is organized as follows:
+
+*   **[assets/css](mdc:assets/css):** Contains all CSS files, including custom styles ([assets/css/styles.css](mdc:assets/css/styles.css)) and library styles (e.g., [assets/css/swiper-bundle.min.css](mdc:assets/css/swiper-bundle.min.css)).
+*   **[assets/js](mdc:assets/js):** Contains all JavaScript files, including custom scripts ([assets/js/main.js](mdc:assets/js/main.js)) and library scripts (e.g., [assets/js/swiper-bundle.min.js](mdc:assets/js/swiper-bundle.min.js)).
+*   **[assets/img](mdc:assets/img):** Contains all image files used in the project (e.g., `about.jpg`, `perfil.png`).
+*   **[assets/pdf](mdc:assets/pdf):** Contains any PDF files, such as CVs (e.g., `Alexa-Cv.pdf`).

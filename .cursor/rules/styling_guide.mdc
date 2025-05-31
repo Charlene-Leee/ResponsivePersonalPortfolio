@@ -1,0 +1,21 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Styling Guide
+
+All custom styles for the website are primarily located in [assets/css/styles.css](mdc:assets/css/styles.css). This file is comprehensive and includes styles for:
+*   **Base Styles:** Reset, typography, global variables (colors, fonts, sizes, z-index).
+*   **Layout:** `.container`, `.grid`, `.section`.
+*   **Header & Navigation:** `.header`, `.nav`, `.nav__logo`, `.nav__menu`, `.nav__link`, `.active-link`, `.scroll-header`.
+*   **Theme Switcher:** `.change-theme` icon styling and `body.dark-theme` variables for dark mode.
+*   **All Sections:** Specific styles for Home, About, Skills, Qualification, Services (including `.services__modal`), Portfolio (including Swiper elements like `.swiper-button-next/prev`, `.swiper-pagination`), Project in Mind, Testimonial (including Swiper elements), and Contact Me.
+*   **Footer:** `.footer`, `.footer__bg`, `.footer__title`, `.footer__social`.
+*   **Scroll Up Button:** `.scrollup`, `.show-scroll`.
+*   **Scroll Bar:** Custom scrollbar styles for Webkit browsers.
+*   **Media Queries:** Extensive use of `@media` queries for responsiveness across small, medium, and large devices, adjusting layout, font sizes, and element visibility.
+
+The project also links to [assets/css/swiper-bundle.min.css](mdc:assets/css/swiper-bundle.min.css) for base Swiper styles, which are then customized in `styles.css`.
+
+When developing, ensure that [index.html](mdc:index.html) correctly links to all necessary CSS files.

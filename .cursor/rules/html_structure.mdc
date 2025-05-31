@@ -1,0 +1,23 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# HTML Structure
+
+The main HTML file for this project is [index.html](mdc:index.html).
+
+It defines the overall page structure, and all standard sections (Header, Home, About, Skills, Qualification, Services, Portfolio, Project in Mind, Testimonial, Contact, Footer) are now fully implemented.
+
+Key structural points:
+*   Uses Unicons for icons, linked via CDN: `<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">`.
+*   Links to the main custom stylesheet: `<link rel="stylesheet" href="assets/css/styles.css">`.
+*   Includes Swiper CSS for carousels: `<link rel="stylesheet" href="assets/css/swiper-bundle.min.css">`.
+*   The `<header>` contains the navigation menu (`.nav__menu`) and a theme change button (`#theme-button`).
+*   The `<main>` element wraps all content sections.
+*   The Portfolio section (`#portfolio`) uses a `div` with class `swiper-container` (or `swiper` if updated based on Swiper v7+ recommendations) to house the `swiper-wrapper` and slides.
+*   The Testimonial section (`#testimonial`) also uses a `div` with class `swiper-container` for its carousel.
+*   A scroll-to-top link (`#scroll-up`) is present near the end of the body.
+*   Scripts are loaded at the end of the `<body>`:
+    *   Swiper JS: `<script src="assets/js/swiper-bundle.min.js"></script>`
+    *   Main custom JavaScript: `<script src="assets/js/main.js"></script>`
